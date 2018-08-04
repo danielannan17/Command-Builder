@@ -1,0 +1,9 @@
+Type,Command,Description,Inputs,type,Target
+Command,touch,create a file. Modify a file.,1,add|modify,file
+Command,mv,move a file. Rename a file.,2,move|modify,file
+Command,rm,delete a file,1,delete,file
+Command,mkdir,add a directory,1,add,directory
+Command,rmdir,delete a directory,1,delete,directory
+Command,ln,create a link,2,add,link
+Command,useradd,add a user,1,add,user
+Command,userdel,delete a user,1,delete,user

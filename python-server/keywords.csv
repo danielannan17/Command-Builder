@@ -1,0 +1,8 @@
+0,add,create,make
+0,modify,change,
+0,delete,remove,
+0,move,rename,
+1,link,shortcut,
+1,directory,,
+1,file,,
+1,user,,

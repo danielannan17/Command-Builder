@@ -1,0 +1,16 @@
+Type,Command,Description,,Inputs,Output Type,,,Inputs,
+Command,touch,used to create and modify files,,1,1,,,file name,
+Option,-a,sets access time,,0,0,,,,
+Option,-c,stops creation of files,,0,0,,,,
+Option,-t,Combined with -a or -m to add timestamp,,1,0,,,timestamp,
+Command,mv,used to move or rename a file,,2,2,,,source/old name,destination/new name
+Option,-f,forces overwriting without prompting,,0,0,,,,
+Option,-p,always prompt,,0,0,,,,
+Command,mkdir,used to create a directory,,1,1,,,directory name,
+Command,useradd,used to create a user,,1,1,,,user name,
+Command,ln,Used to create links. Use -s for shortcut,,2,2,,,target,link name
+Option,-s,Create symbolic link (shortcut) instead of hard link,,0,0,,,,
+Command,rm,used to delete a file,,1,0,,,file name,
+Command,rmdir,used to delete a directory,,1,0,,,directory name,
+Command,userdel,used to delete a user,,1,0,,,user name,
+Command,cp,Used to copy a file or directory,,2,2,,,source,destination
